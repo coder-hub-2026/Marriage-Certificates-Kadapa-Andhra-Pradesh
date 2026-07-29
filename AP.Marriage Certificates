@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marriage Certificate</title>
+
+<style>
+html,body{
+margin:0;
+padding:0;
+height:100%;
+background:#f5f5f5;
+overflow:hidden;
+}
+
+iframe{
+width:100%;
+height:100%;
+border:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<iframe
+src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/coder-hub-2026/Marriage-Certificates-Kadapa-Andhra-Pradesh/main/Marriage%20Certificate.pdf">
+</iframe>
+
+<script>
+document.addEventListener("contextmenu",e=>e.preventDefault());
+</script>
+
+</body>
+</html>
